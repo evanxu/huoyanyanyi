@@ -109,7 +109,6 @@ body {
 
 .site-header {
     position: relative;
-    padding-bottom: 12px;
     color: #fff;
     background: color(var(--darkgrey) l(-5%)) no-repeat 100% 100%;
     background-size: cover;
@@ -158,14 +157,18 @@ body {
 
 .site-title {
     z-index: 10;
+    height: 60px;
+    line-height: 60px;
     margin: 0;
     padding: 0;
-    font-size: 3.8rem;
+    font-size: 2.8rem;
     font-weight: 700;
 }
 
 .site-logo {
+    height: 30px;
     max-height: 45px;
+    margin-right: 15px;
 }
 
 .site-description {
@@ -206,13 +209,13 @@ body {
 }
 
 .site-nav-left {
+    height: 60px;
     display: flex;
     align-items: center;
     overflow-x: auto;
     overflow-y: hidden;
     -webkit-overflow-scrolling: touch;
     margin-right: 10px;
-    padding-bottom: 80px;
     letter-spacing: 0.4px;
     white-space: nowrap;
 
@@ -2357,8 +2360,7 @@ Usage (In Ghost editor):
 
 .site-footer {
     position: relative;
-    padding-top: 20px;
-    padding-bottom: 60px;
+    padding: 20px 0;
     color: #fff;
     background: color(var(--darkgrey) l(-15%));
 }
