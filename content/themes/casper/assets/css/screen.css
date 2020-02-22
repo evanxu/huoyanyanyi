@@ -715,7 +715,7 @@ make sure this only happens on large viewports / desktop-ish devices.
 }
 
 .post-full-image {
-    margin: 0 -10vw -165px;
+    margin: 0 -10vw -115px;
     background: var(--lightgrey) center center;
     border-radius: 5px;
     overflow: hidden;
@@ -723,7 +723,6 @@ make sure this only happens on large viewports / desktop-ish devices.
 
 .post-full-image img {
     width: 100%;
-    height: 800px;
     object-fit: cover;
 }
 
